@@ -7,3 +7,6 @@
 .nav-link-color:hover {
     color: #f2a853;
 }
+.btn-size-50px{
+    min-width: 50px;
+}

@@ -25,10 +25,10 @@ const DuckForm = ({addDuck}: DuckFormProps) => {
             setDuck(oldDuck => ({...oldDuck, [e.target.name]: e.target.value}));
         }
     return (
-        <div className="d-flex flex-column align-items-center p-2">
+        <div className="d-flex flex-column align-items-center p-2 me-2">
             <div className="mb-3 d-flex flex-row align-items-center">
                 <label htmlFor="duckName" className="form-label">Name</label>
-                <input className="form-control" type="text"
+                <input className="form-control align-self-end" type="text"
                        value={duck.name} id="duckName" name="name"
                        onChange={changeHandler}/>
             </div>

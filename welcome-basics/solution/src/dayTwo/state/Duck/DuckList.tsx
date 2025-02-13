@@ -6,7 +6,7 @@ type DuckListProps = {
 }
 
 const DuckList = ({duckList}: DuckListProps) => {
-    console.log(duckList);
+  debugger;
     return (
         <div className="d-flex flex-column align-items-center">
             {duckList.map((duck: Duck) => {

@@ -15,6 +15,17 @@ const NavigationBar = () => {
                         <Link className="nav-link nav-link-color" to="/duck">Ducks</Link>
                     </li>
                     <li className="nav-item">
+                        <Link className="nav-link nav-link-color" to="/apiCalls">Api Calls</Link>
+                    </li>
+                    <li className="nav-item">
+                        <Link className="nav-link nav-link-color" to="/useReducer">UseReducer</Link>
+                    </li>
+                    <li className="nav-item">
+                        <Link className="nav-link nav-link-color" to="/useContext">UseContext</Link>
+                    </li>  <li className="nav-item">
+                        <Link className="nav-link nav-link-color" to="/useRedux">UseRedux</Link>
+                    </li>
+                    <li className="nav-item">
                         <Link className="nav-link nav-link-color" to="/about">About Us</Link>
                     </li>
                 </div>
